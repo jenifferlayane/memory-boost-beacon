@@ -442,7 +442,7 @@ const Index = () => {
                       Activate Your Brain's "Memory Protein" Today
                     </h3>
                     <p className="text-lg text-foreground/90 mb-4 leading-relaxed">
-                      <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">Visit the Official The Brain Song Website</button> to activate your brain's "<button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">Memory Protein</button>" today and claim your special <span className="text-accent font-bold text-3xl">$39</span> offer.
+                      <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline font-bold">Visit the Official The Brain Song Website</button> to activate your brain's "<button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline">Memory Protein</button>" today and claim your special <span className="text-accent font-bold text-3xl">$39</span> offer.
                     </p>
                     <div className="bg-yellow-50 dark:bg-yellow-950/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-6">
                       <p className="text-sm font-semibold text-yellow-800 dark:text-yellow-300">
@@ -553,7 +553,7 @@ const Index = () => {
             {/* Final CTA */}
             <div className="my-12">
               <p className="text-lg text-foreground/90 mb-6 leading-relaxed">
-                Ready to experience better <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">memory</button> and <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">mental clarity</button>? Join over 127,000 users who have already discovered the benefits of <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">Brain Song</button>. With a <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">90-day money-back guarantee</button>, you have nothing to lose and sharper thinking to gain. The special offer of $39 is available for a limited time with instant digital access, 90-day guarantee, and secure checkout. For verified purchase protection, make sure to only buy from the <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">official website</button>.
+                Ready to experience better <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline">memory</button> and <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline">mental clarity</button>? Join over 127,000 users who have already discovered the benefits of <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline font-bold">Brain Song</button>. With a <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline">90-day money-back guarantee</button>, you have nothing to lose and sharper thinking to gain. The special offer of $39 is available for a limited time with instant digital access, 90-day guarantee, and secure checkout. For verified purchase protection, make sure to only buy from the <button onClick={handleCtaClick} className="text-foreground hover:text-foreground/80 underline font-bold">official website</button>.
               </p>
             </div>
 
