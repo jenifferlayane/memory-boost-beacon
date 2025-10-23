@@ -551,35 +551,11 @@ const Index = () => {
             </div>
 
             {/* Final CTA */}
-            <Card className="p-8 md:p-12 my-12 bg-gradient-to-br from-accent/20 to-primary/20 border-2 border-accent text-center">
-              <div className="inline-block bg-accent text-white px-4 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
-                🎯 SPECIAL OFFER: $39 (Limited Time)
-              </div>
-              <h2 className="text-3xl font-bold mb-4">Ready to Experience Better <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">Memory</button> and <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">Mental Clarity</button>?</h2>
-              <p className="text-lg text-foreground/90 mb-6 max-w-2xl mx-auto">
-                Join over 127,000 users who have already discovered the benefits of <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">Brain Song</button>. With a <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">90-day money-back guarantee</button>, you have nothing to lose and sharper thinking to gain.
+            <div className="my-12">
+              <p className="text-lg text-foreground/90 mb-6 leading-relaxed">
+                Ready to experience better <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">memory</button> and <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">mental clarity</button>? Join over 127,000 users who have already discovered the benefits of <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">Brain Song</button>. With a <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline">90-day money-back guarantee</button>, you have nothing to lose and sharper thinking to gain. The special offer of $39 is available for a limited time with instant digital access, 90-day guarantee, and secure checkout. For verified purchase protection, make sure to only buy from the <button onClick={handleCtaClick} className="text-accent hover:text-accent/80 underline font-bold">official website</button>.
               </p>
-              
-              <Button 
-                size="lg" 
-                className="text-xl py-7 px-12 bg-accent hover:bg-accent/90 text-white font-bold shadow-lg hover:shadow-xl transition-all mb-4"
-                onClick={handleCtaClick}
-              >
-                <Brain className="w-6 h-6 mr-2" />
-                Get Brain Song Now - Only $39
-              </Button>
-              
-              <p className="text-sm font-semibold mb-4">
-                ✓ Instant Digital Access &nbsp;•&nbsp; ✓ 90-Day Guarantee &nbsp;•&nbsp; ✓ Secure Checkout
-              </p>
-              
-              <div className="bg-white/50 dark:bg-black/20 rounded-lg p-4 max-w-md mx-auto">
-                <p className="text-xs text-muted-foreground">
-                  <Shield className="w-4 h-4 inline mr-1" />
-                  <strong>Verified Purchase Protection:</strong> Only buy from <button onClick={handleCtaClick} className="underline hover:no-underline">official website</button>
-                </p>
-              </div>
-            </Card>
+            </div>
 
             {/* Disclaimer */}
             <div className="mt-12 pt-8 border-t border-border">
