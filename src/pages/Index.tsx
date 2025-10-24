@@ -440,7 +440,7 @@ const Index = () => {
                   
                   <Button 
                     size="lg" 
-                    className="w-full text-xl py-7 px-12 bg-accent hover:bg-accent/90 text-white font-bold shadow-lg hover:shadow-xl transition-all mb-4"
+                    className="w-full text-xl py-7 px-12 bg-accent hover:bg-accent/90 text-black font-bold shadow-lg hover:shadow-xl transition-all mb-4"
                     onClick={handleCtaClick}
                   >
                     <Zap className="w-5 h-5 mr-2" />
