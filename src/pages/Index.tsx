@@ -17,7 +17,6 @@ import {
 } from "lucide-react";
 import { safeRedirect } from "@/lib/urlValidation";
 import brainSongDevices from "@/assets/brain-song-devices.png";
-import brainSongOffer from "@/assets/brain-song-offer.png";
 import brainSongReviewWoman from "@/assets/brain-song-review-woman.png";
 import brainSongMethod from "@/assets/brain-song-method.png";
 import brainSongDrRivers from "@/assets/brain-song-dr-rivers.png";
@@ -413,18 +412,6 @@ const Index = () => {
               </div>
 
               <h2 className="text-3xl font-bold text-foreground mb-4 mt-12">Where to Buy <button onClick={handleCtaClick} className="text-primary hover:text-primary/80 underline">Brain Song</button>?</h2>
-              
-              {/* Offer Image */}
-              <div className="my-8 cursor-pointer max-w-lg mx-auto" onClick={handleCtaClick}>
-                <img 
-                  src={brainSongOffer} 
-                  alt="Brain Song Special Offer - $39 with 90-Day Guarantee" 
-                  className="w-full rounded-lg shadow-xl hover:shadow-2xl transition-shadow border-2 border-accent/30"
-                />
-                <p className="text-center text-sm text-muted-foreground mt-2">
-                  ⬆️ Click to claim special $39 offer
-                </p>
-              </div>
 
               <Card className="p-8 my-8 bg-gradient-to-br from-accent/10 to-primary/10 border-2 border-accent/30">
                 <div className="max-w-2xl mx-auto">
