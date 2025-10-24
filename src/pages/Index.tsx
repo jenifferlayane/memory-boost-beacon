@@ -413,7 +413,7 @@ const Index = () => {
 
               <h2 className="text-3xl font-bold text-foreground mb-4 mt-12">Where to Buy <button onClick={handleCtaClick} className="text-primary hover:text-primary/80 underline">Brain Song</button>?</h2>
 
-              <Card className="p-8 my-8 bg-gradient-to-br from-accent/10 to-primary/10 border-2 border-accent/30">
+              <Card className="p-8 my-8 bg-gradient-to-br from-blue-900/20 to-blue-800/20 border-2 border-blue-700/50">
                 <div className="max-w-2xl mx-auto">
                   <div className="flex items-center justify-center gap-2 mb-6">
                     <Award className="w-12 h-12 text-accent" />
